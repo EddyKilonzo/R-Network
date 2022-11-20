@@ -216,7 +216,7 @@ h6,
 .page-header {
     padding-top: 12rem;
     padding-bottom: 6rem;
-    background: url(../img/header.jpg) top left no-repeat;
+    background: url(../img/aw.jpg) top left no-repeat;
     background-size: cover;
 }
 
@@ -224,11 +224,16 @@ h6,
 .page-header .breadcrumb-item a {
     font-weight: 500;
 }
-
-.page-header .breadcrumb-item+.breadcrumb-item::before {
-    color: var(--tertiary);
+.page-header .breadcrumb-item{
+    color:white;
+}
+.page-header .breadcrumb-item:hover{
+    color:rgb(18, 17, 17);
 }
 
+.page-header .breadcrumb-item+.breadcrumb-item::before {
+    color:var(--dark);
+}
 
 /*** Facts ***/
 .facts {
@@ -294,13 +299,14 @@ h6,
     position: relative;
 }
 
+
 .project-item .project-img a {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background: rgba(255, 255, 255, .5);
+    background: rgba(46, 31, 159, 0.5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -427,6 +433,7 @@ h6,
 
 /*** Testimonial ***/
 .testimonial-item {
+    
     position: relative;
     text-align: center;
     padding-top: 30px;
@@ -468,8 +475,9 @@ h6,
 
 .testimonial-carousel .owl-item img {
     margin: 0 auto;
-    width: 100px;
-    height: 100px;
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
 }
 
 .testimonial-carousel .owl-dots {
