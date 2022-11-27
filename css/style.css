@@ -1,5 +1,20 @@
 /********** Template CSS **********/
 
+::-webkit-scrollbar {
+    width: 12px;
+   
+}
+::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 50px;
+   
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(57, 18, 148);
+background: linear-gradient(103deg, rgb(4, 21, 58) 0%, rgb(6, 67, 105) 100%, rgba(0,212,255,1) 100%);;
+    border-radius: 50px;
+    height: 200px;
+}
 :root {
     --primary: #111d4e;
     --secondary: #c8bbb8;
