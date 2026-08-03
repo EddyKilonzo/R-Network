@@ -14,9 +14,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -89,9 +87,10 @@
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container">
-            <h1 class="display-3 mb-4 animated slideInDown">About</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
+        <div class="container text-center">
+            <span class="badge-pill-custom mb-3">Who We Are</span>
+            <h1 class="display-4 fw-bold text-white mb-3">About R NetworQ</h1>
+            <nav aria-label="breadcrumb" class="d-flex justify-content-center">
                 <ol class="breadcrumb mb-0">
                     <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
@@ -106,31 +105,42 @@
     <!-- About Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="row g-4 align-items-end mb-4">
+            <div class="row g-5 align-items-start mb-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" src="img/w1.jpg">
-                    <br>
-                    <img class="img-fluid rounded" src="img/w.jpg">
+                    <div class="d-flex flex-column gap-3">
+                        <img class="img-fluid rounded-4 shadow-sm object-fit-cover" src="img/w1.jpg" alt="R Networq" style="max-height: 280px; width: 100%;">
+                        <img class="img-fluid rounded-4 shadow-sm object-fit-cover" src="img/w.jpg" alt="R Networq Community" style="max-height: 280px; width: 100%;">
+                    </div>
                 </div>
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">About Us</p>
+                    <span class="badge-pill-custom mb-3">About Us</span>
+                    <h2 class="display-6 mb-4">Our Objectives & Advocacy</h2>
                    
-                    <ol style="font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
-                        <p><i class="fa fa-check text-primary me-3"></i>Raising the status of LGBTQ community in Kenya, through awareness and educational resources</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Improving LGBTQ community self-esteem, body image, and mental health</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Providing a safe space for persecuted members </p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Providing psychosocial support to members who are victims of stereotypes, in whatever form that may be  </p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Equipping community members with the tools and confidence to advocate for themselves </p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Redefining stereotypical gender roles, and encouraging LGBTQ to pursue their goals, especially those outside of societal expectations </p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Redefining stereotypical gender roles, and encouraging LGBTQ to pursue their goals, especially those outside of societal expectations</p>
-                        <p><i class="fa fa-check text-primary me-3"></i>Connecting local chapters of LGBTQ organizations to a global audience where they can share resources, ideas and knowledge</p>
-                    </ol>
-                    <div class="border rounded p-4">
+                    <div class="d-flex flex-column gap-2 mb-4">
+                        <div class="d-flex align-items-start bg-white p-3 rounded-3 shadow-sm border">
+                            <i class="fa fa-check-circle text-primary me-3 mt-1"></i>
+                            <span>Raising the status of LGBTQ community in Kenya through awareness & educational resources</span>
+                        </div>
+                        <div class="d-flex align-items-start bg-white p-3 rounded-3 shadow-sm border">
+                            <i class="fa fa-check-circle text-primary me-3 mt-1"></i>
+                            <span>Improving community self-esteem, body image, and holistic mental health</span>
+                        </div>
+                        <div class="d-flex align-items-start bg-white p-3 rounded-3 shadow-sm border">
+                            <i class="fa fa-check-circle text-primary me-3 mt-1"></i>
+                            <span>Providing a safe space, emergency shelter, and legal navigation for persecuted members</span>
+                        </div>
+                        <div class="d-flex align-items-start bg-white p-3 rounded-3 shadow-sm border">
+                            <i class="fa fa-check-circle text-primary me-3 mt-1"></i>
+                            <span>Equipping members with confidence and advocacy tools to demand dignity & justice</span>
+                        </div>
+                    </div>
+
+                    <div class="border rounded-4 p-4 bg-white shadow-sm">
                         <nav>
                             <div class="nav nav-tabs mb-3" id="nav-tab" role="tablist">
                                 <button class="nav-link fw-semi-bold active" id="nav-story-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-story" type="button" role="tab" aria-controls="nav-story"
-                                    aria-selected="true">Value statement
+                                    aria-selected="true">Value Statement
                                 </button>
                                 <button class="nav-link fw-semi-bold" id="nav-mission-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-mission" type="button" role="tab" aria-controls="nav-mission"
@@ -138,49 +148,94 @@
                                 <button class="nav-link fw-semi-bold" id="nav-vision-tab" data-bs-toggle="tab"
                                     data-bs-target="#nav-vision" type="button" role="tab" aria-controls="nav-vision"
                                     aria-selected="false">Vision</button>
+                                <button class="nav-link fw-semi-bold" id="nav-lifeline-tab" data-bs-toggle="tab"
+                                    data-bs-target="#nav-lifeline" type="button" role="tab" aria-controls="nav-lifeline"
+                                    aria-selected="false">Our Lifeline</button>
                             </div>
                         </nav>
                         <div class="tab-content" id="nav-tabContent">
                             <div class="tab-pane fade show active" id="nav-story" role="tabpanel"
                                 aria-labelledby="nav-story-tab">
-                                <p>We take an intersectional approach to our work and believe that fighting one form of oppression means fighting all forms of oppression. </p>
-                                <p class="mb-0">We are committed to promoting equality and respect for all people, irrespective of their sexual orientation or gender identities or expression</p>
+                                <p class="text-dark">We take an intersectional approach to our work and believe that fighting one form of oppression means fighting all forms of oppression. We are committed to promoting equality and respect for all people, irrespective of their sexual orientation or gender identities.</p>
                             </div>
                             <div class="tab-pane fade" id="nav-mission" role="tabpanel"
                                 aria-labelledby="nav-mission-tab">
-                                <p>Enhance knowledge and skills to increase womxn’s agency, to enhance womxn’s ability to navigate the their lives safely and maximize living their lives without fear of discrimination or violence</p>
+                                <p class="text-dark">Enhance knowledge and skills to increase womxn’s agency, to enhance womxn’s ability to navigate their lives safely and maximize living their lives without fear of discrimination or violence.</p>
                             </div>
                             <div class="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
-                                <p>We work toward creating and maintaining a safe, inclusive, and equitable environment for LGBTQIA+ community. Our Safe Shelter aims to sustain visibility and a sense of community throughout our region..</p>
-                                <p class="mb-0">We are committed to building equity, promoting leadership, and providing high quality, culturally sensitive psychosocial support to our members.</p>
+                                <p class="text-dark">We work toward creating and maintaining a safe, inclusive, and equitable environment for the LGBTQIA+ community. Our Safe Shelter aims to sustain visibility and a sense of community throughout our region.</p>
+                            </div>
+                            <div class="tab-pane fade" id="nav-lifeline" role="tabpanel" aria-labelledby="nav-lifeline-tab">
+                                <p class="text-dark">R NetworQ exists to break that isolation. We are a lifeline for LGBTQ+ migrants escaping Uganda's brutal crackdown—providing emergency shelter, legal navigation, psychosocial care, and the critical infrastructure of safety that no one else is building.</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-  
+        </div>
+    </div>
     <!-- About End -->
 
+    <!-- Lifeline & Cross-Border Section Start -->
+    <div class="container-xxl py-5 bg-light rounded-4 my-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container">
+            <div class="row g-4 align-items-stretch">
+                <div class="col-lg-6">
+                    <div class="bg-white p-4 p-md-5 rounded-4 shadow-sm border h-100">
+                        <span class="badge-pill-custom mb-3">Our Core Mission</span>
+                        <h2 class="display-6 mb-3">Breaking Isolation & Building Safety</h2>
+                        <p class="lead text-dark fw-medium mb-3">
+                            R NetworQ exists to break that isolation. We are a lifeline for LGBTQ+ migrants escaping Uganda's brutal crackdown—providing emergency shelter, legal navigation, psychosocial care, and safety infrastructure.
+                        </p>
+                        <p class="text-secondary mb-0">
+                            Our beneficiaries are not victims waiting to be saved. They are survivors of systematic state violence who deserve dignity, documentation, and a fighting chance at life. We meet them where they are—hiding in safe houses, crossing borders in darkness, waiting in legal limbo—and we stay.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-white p-4 p-md-5 rounded-4 shadow-sm border h-100">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-shield-alt text-dark fa-2x me-3"></i>
+                            <h4 class="m-0 text-dark">Cross-Border Vulnerability</h4>
+                        </div>
+                        <p class="text-dark mb-3 fw-medium">
+                            Along the Kenya-Uganda crossing, queer sex workers exist in a zone of extreme vulnerability—criminalized by the state, exploited by clients, harassed by police, and abandoned by aid systems that refuse to see them.
+                        </p>
+                        <p class="text-muted mb-0">
+                            For Trans+ individuals and queer people in transit, sex work is often the only survival strategy available in a landscape that denies them employment, housing, healthcare, and legal protection. Every transaction carries risk: violence, infection, arrest, deportation. Every night is a calculation between hunger and harm.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Lifeline & Cross-Border Section End -->
 
-    <h1 style="font-family:fantasy ;">Image Gallery</h1><hr>
-<div id="gallery" >  
-  <img src="img/a.jpg" class="img-responsive">
-  <img src="img/r.jpg" class="img-responsive">
-   <img src="img/c.jpg" class="img-responsive">
-  <img src="img/o.jpg" class="img-responsive">
-  <img src="img/ji.jpg" class="img-responsive">
-<img src="img/er.jpg" class="img-responsive">
-  <img src="img/as.jpg" class="card img-responsive">
-  <img src="img/ji.jpg" class="img-responsive">
-  <img src="img/tg.jpg" class="img-responsive">
-  <img src="img/azx.jpg" class="img-responsive">
-  <img src="img/pol.jpg" class="img-responsive">
-<img src="img/sw.jpg" class="img-responsive">
-<img src="img/aq.jpg" class="img-responsive">
-<img src="img/zs.jpg" class="img-responsive">
-<img src="img/zx.jpg" class="img-responsive">
-
-</div>
+    <!-- Gallery Section Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <span class="badge-pill-custom mb-2">Visual Showcase</span>
+                <h2 class="display-5">Community Gallery</h2>
+            </div>
+            <div class="gallery-grid">  
+                <img src="img/a.jpg" class="img-fluid rounded-4" alt="Gallery Image 1">
+                <img src="img/r.jpg" class="img-fluid rounded-4" alt="Gallery Image 2">
+                <img src="img/c.jpg" class="img-fluid rounded-4" alt="Gallery Image 3">
+                <img src="img/o.jpg" class="img-fluid rounded-4" alt="Gallery Image 4">
+                <img src="img/ji.jpg" class="img-fluid rounded-4" alt="Gallery Image 5">
+                <img src="img/er.jpg" class="img-fluid rounded-4" alt="Gallery Image 6">
+                <img src="img/as.jpg" class="img-fluid rounded-4" alt="Gallery Image 7">
+                <img src="img/tg.jpg" class="img-fluid rounded-4" alt="Gallery Image 8">
+                <img src="img/azx.jpg" class="img-fluid rounded-4" alt="Gallery Image 9">
+                <img src="img/pol.jpg" class="img-fluid rounded-4" alt="Gallery Image 10">
+                <img src="img/sw.jpg" class="img-fluid rounded-4" alt="Gallery Image 11">
+                <img src="img/aq.jpg" class="img-fluid rounded-4" alt="Gallery Image 12">
+                <img src="img/zs.jpg" class="img-fluid rounded-4" alt="Gallery Image 13">
+                <img src="img/zx.jpg" class="img-fluid rounded-4" alt="Gallery Image 14">
+            </div>
+        </div>
+    </div>
 
 <div id="myModal" class="modal fade" role="dialog">
   <div class="modal-dialog">

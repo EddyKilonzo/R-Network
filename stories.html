@@ -15,9 +15,7 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -64,7 +62,8 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                         <div class="dropdown-menu border-light m-0">
-                            <a href="stories.html" class="dropdown-item">Stories</a>
+                            <a href="stories.html" clas
+                            s="dropdown-item">Stories</a>
                             <a href="testimonial.html" class="dropdown-item">Testimonial</a>
                         </div>
                     </div>
@@ -90,10 +89,11 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 wow fadeIn" data-wow-delay="0.1s">
         <div class="container">
-            <h1 class="display-3 mb-4 animated slideInDown">Stories</h1>
-            <nav aria-label="breadcrumb animated slideInDown">
-                <ol class="breadcrumb mb-0">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+            <span class="badge-pill-custom mb-3">Community Voices & Advocacy</span>
+            <h1 class="display-4 fw-bold">Survivor Stories & Chronicles</h1>
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
                     <li class="breadcrumb-item"><a href="#">Pages</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Stories</li>
                 </ol>
@@ -102,57 +102,107 @@
     </div>
     <!-- Page Header End -->
 
-
-    <!-- Projects Start -->
+    <!-- Stories Grid Start -->
     <div class="container-xxl py-5">
         <div class="container">
-            <div class="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
-                <p class="d-inline-block border rounded text-primary fw-semi-bold py-1 px-3">Be Bold</p>
-                <h1 class="display-5 mb-5">Stories from afflicted People</h1>
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 650px;">
+                <span class="badge-pill-custom mb-2">Be Bold</span>
+                <h2 class="display-5">Realities & Voices from the Frontlines</h2>
             </div>
-            <div class="owl-carousel project-carousel wow fadeInUp" data-wow-delay="0.3s">
-                <div class="project-item pe-5 pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/df.jpg" alt="">
-                        <a href="story1.html"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">A Day at a Time                        </h4>
-                    </div>
-                </div>
-                <div class="project-item pe-5 pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/azx.jpg" alt="">
-                        <a href="story2.html"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">No turning back                        </h4>
+            
+            <div class="row g-4 mb-5 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="col-lg-4 col-md-6">
+                    <div class="story-card">
+                        <img src="img/df.jpg" alt="A Day at a Time">
+                        <div class="story-content">
+                            <div>
+                                <span class="badge bg-light text-dark border mb-2">Personal Journey</span>
+                                <h4 class="mb-2">A Day at a Time</h4>
+                                <p class="text-secondary small mb-3">A survivor's account of navigating daily crisis, seeking safe shelter, and finding resilience.</p>
+                            </div>
+                            <a href="story1.html" class="btn btn-outline-primary btn-sm align-self-start">Read Full Story <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
                     </div>
                 </div>
-                <div class="project-item pe-5 pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/kl.jpg" alt="">
-                        <a href="story3.html"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">Outed by force
-                        </h4>
-                    </div>
-                </div>
-                <div class="project-item pe-5 pb-5">
-                    <div class="project-img mb-3">
-                        <img class="img-fluid rounded" src="img/ed.jpg" alt="">
-                        <a href="story4.html"><i class="fa fa-link fa-3x text-primary"></i></a>
-                    </div>
-                    <div class="project-title">
-                        <h4 class="mb-0">I was free.....
-                        </h4>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="story-card">
+                        <img src="img/azx.jpg" alt="No Turning Back">
+                        <div class="story-content">
+                            <div>
+                                <span class="badge bg-light text-dark border mb-2">Cross-Border Survival</span>
+                                <h4 class="mb-2">No Turning Back</h4>
+                                <p class="text-secondary small mb-3">Reflecting on the perilous crossing from Uganda to Kenya in search of safety and dignity.</p>
+                            </div>
+                            <a href="story2.html" class="btn btn-outline-primary btn-sm align-self-start">Read Full Story <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
                     </div>
                 </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="story-card">
+                        <img src="img/kl.jpg" alt="Outed by Force">
+                        <div class="story-content">
+                            <div>
+                                <span class="badge bg-light text-dark border mb-2">Rights Violation</span>
+                                <h4 class="mb-2">Outed by Force</h4>
+                                <p class="text-secondary small mb-3">Understanding the consequences of forced exposure and state-sanctioned hostility.</p>
+                            </div>
+                            <a href="story3.html" class="btn btn-outline-primary btn-sm align-self-start">Read Full Story <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="story-card">
+                        <img src="img/ed.jpg" alt="I Was Free">
+                        <div class="story-content">
+                            <div>
+                                <span class="badge bg-light text-dark border mb-2">Affirmation</span>
+                                <h4 class="mb-2">I Was Free...</h4>
+                                <p class="text-secondary small mb-3">Finding community, mental healthcare, and hope after years of living in hiding.</p>
+                            </div>
+                            <a href="story4.html" class="btn btn-outline-primary btn-sm align-self-start">Read Full Story <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="story-card">
+                        <img src="img/sw.jpg" alt="Transit Realities">
+                        <div class="story-content">
+                            <div>
+                                <span class="badge bg-light text-dark border mb-2">Border Transit</span>
+                                <h4 class="mb-2">Transit Realities along the Border</h4>
+                                <p class="text-secondary small mb-3">The daily calculations between hunger, harassment, and harm faced by queer sex workers in transit.</p>
+                            </div>
+                            <a href="story5.html" class="btn btn-outline-primary btn-sm align-self-start">Read Full Story <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="story-card">
+                        <img src="img/tg.jpg" alt="Building Safety Infrastructure">
+                        <div class="story-content">
+                            <div>
+                                <span class="badge bg-light text-dark border mb-2">Community Defense</span>
+                                <h4 class="mb-2">Building Infrastructure of Safety</h4>
+                                <p class="text-secondary small mb-3">How R NetworQ establishes safe houses, legal aid, and emergency response teams.</p>
+                            </div>
+                            <a href="story6.html" class="btn btn-outline-primary btn-sm align-self-start">Read Full Story <i class="fa fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-5 p-4 bg-light rounded-4 border">
+                <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Majority of LGBTQ+ people say that they or an LGBTQ+ friend or family member have been threatened or non-sexually harassed, been sexually harassed, or experienced violence because of their sexuality or gender identity <a href="https://t.co/xaewRdZCHW">pic.twitter.com/xaewRdZCHW</a></p>&mdash; R NetworQ 🏳️‍🌈 (@RelentlessKenya) <a href="https://twitter.com/RelentlessKenya/status/1575844288331943937?ref_src=twsrc%5Etfw">September 30, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             </div>
         </div>
     </div>
-    <!-- Projects End -->
+    <!-- Stories Grid End -->
+    
 
     
    <!-- Footer Start -->
